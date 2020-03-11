@@ -1,0 +1,1238 @@
+2020-02-27 12:14:36.565  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 27092 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-02-27 12:14:36.628  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40564fc7: startup date [Thu Feb 27 12:14:36 MST 2020]; root of context hierarchy
+2020-02-27 12:14:37.357  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-02-27 12:14:38.121  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-02-27 12:14:38.321  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$446b3a98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 12:14:38.365  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 12:14:38.385  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 12:14:38.408  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 12:14:38.946  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 12:14:39.097  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-02-27 12:14:39.106  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-02-27 12:14:39.230  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-02-27 12:14:39.233  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2610 ms
+2020-02-27 12:14:39.997  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-02-27 12:14:40.007  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-02-27 12:14:40.009  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-02-27 12:14:40.282  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-02-27 12:14:40.299  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-27 12:14:40.388  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-02-27 12:14:40.393  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-02-27 12:14:40.396  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-02-27 12:14:40.590  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-02-27 12:14:41.783  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-27 12:14:41.892  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-02-27 12:14:42.155  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-02-27 12:14:42.327  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-02-27 12:14:43.087  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40564fc7: startup date [Thu Feb 27 12:14:36 MST 2020]; root of context hierarchy
+2020-02-27 12:14:43.196  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.addCustomer(com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 12:14:43.205  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers]}" onto public java.lang.Iterable<com.promineotech.customerTrackerApi.entity.Customer> com.promineotech.customerTrackerApi.controller.CustomersController.getCustomers()
+2020-02-27 12:14:43.209  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-02-27 12:14:43.215  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-02-27 12:14:43.268  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 12:14:43.274  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 12:14:43.332  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 12:14:43.545  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-02-27 12:14:43.602  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 12:14:43.620  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 12:14:43.641  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-02-27 12:14:43.673  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-02-27 12:14:43.678  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Started App in 7.461 seconds (JVM running for 12.726)
+2020-02-27 12:18:01.548  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 8012 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-02-27 12:18:01.645  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@374007d1: startup date [Thu Feb 27 12:18:01 MST 2020]; root of context hierarchy
+2020-02-27 12:18:02.651  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-02-27 12:18:03.562  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-02-27 12:18:03.908  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$98e5764d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 12:18:03.989  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 12:18:04.073  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 12:18:04.092  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 12:18:05.171  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 12:18:05.363  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-02-27 12:18:05.370  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-02-27 12:18:05.592  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-02-27 12:18:05.652  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4011 ms
+2020-02-27 12:18:06.560  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-02-27 12:18:06.568  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-02-27 12:18:06.570  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-02-27 12:18:07.006  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-02-27 12:18:07.024  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-27 12:18:07.109  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-02-27 12:18:07.114  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-02-27 12:18:07.117  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-02-27 12:18:07.285  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-02-27 12:18:08.391  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-27 12:18:08.514  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-02-27 12:18:08.760  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-02-27 12:18:08.939  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-02-27 12:18:09.726  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@374007d1: startup date [Thu Feb 27 12:18:01 MST 2020]; root of context hierarchy
+2020-02-27 12:18:09.840  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.addCustomer(com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 12:18:09.848  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers]}" onto public java.lang.Iterable<com.promineotech.customerTrackerApi.entity.Customer> com.promineotech.customerTrackerApi.controller.CustomersController.getCustomers()
+2020-02-27 12:18:09.852  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-02-27 12:18:09.862  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-02-27 12:18:09.915  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 12:18:09.933  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 12:18:10.001  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 12:18:10.196  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-02-27 12:18:10.243  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 12:18:10.256  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 12:18:10.280  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-02-27 12:18:10.323  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-02-27 12:18:10.329  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Started App in 9.229 seconds (JVM running for 29.135)
+2020-02-27 12:18:24.988  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-02-27 12:18:24.990  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-02-27 12:18:25.031  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2020-02-27 13:08:44.497  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 25448 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-02-27 13:08:44.549  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@793c4e36: startup date [Thu Feb 27 13:08:44 MST 2020]; root of context hierarchy
+2020-02-27 13:08:45.249  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-02-27 13:08:46.045  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-02-27 13:08:46.304  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$913295e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:08:46.358  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:08:46.377  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:08:46.408  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:08:47.096  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 13:08:47.276  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-02-27 13:08:47.289  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-02-27 13:08:47.428  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-02-27 13:08:47.440  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2894 ms
+2020-02-27 13:08:48.327  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-02-27 13:08:48.341  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-02-27 13:08:48.344  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-02-27 13:08:48.639  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-02-27 13:08:48.661  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-27 13:08:48.757  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-02-27 13:08:48.760  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-02-27 13:08:48.766  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-02-27 13:08:48.993  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-02-27 13:08:50.122  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-27 13:08:50.224  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-02-27 13:08:50.469  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-02-27 13:08:50.627  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-02-27 13:08:51.300  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@793c4e36: startup date [Thu Feb 27 13:08:44 MST 2020]; root of context hierarchy
+2020-02-27 13:08:51.386  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.updateCustomer(java.lang.Long,com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 13:08:51.393  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.getCustomer(java.lang.Long)
+2020-02-27 13:08:51.395  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers]}" onto public java.lang.Iterable<com.promineotech.customerTrackerApi.entity.Customer> com.promineotech.customerTrackerApi.controller.CustomersController.getCustomers()
+2020-02-27 13:08:51.403  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public void com.promineotech.customerTrackerApi.controller.CustomersController.deleteCustomer(java.lang.Long)
+2020-02-27 13:08:51.405  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.addCustomer(com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 13:08:51.409  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-02-27 13:08:51.415  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-02-27 13:08:51.452  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:08:51.458  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:08:51.510  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:08:51.677  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-02-27 13:08:51.722  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 13:08:51.736  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 13:08:51.755  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-02-27 13:08:51.777  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-02-27 13:08:51.789  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Started App in 7.62 seconds (JVM running for 12.634)
+2020-02-27 13:11:27.450  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-02-27 13:11:27.456  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-02-27 13:11:27.500  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+2020-02-27 13:30:11.658  INFO WINDOWS-TLP3L6J
+			---[       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@793c4e36: startup date [Thu Feb 27 13:08:44 MST 2020]; root of context hierarchy
+2020-02-27 13:30:21.526  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 3160 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-02-27 13:30:21.581  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68797e5e: startup date [Thu Feb 27 13:30:21 MST 2020]; root of context hierarchy
+2020-02-27 13:30:22.412  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-02-27 13:30:23.222  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-02-27 13:30:23.453  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bb8164d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:30:23.508  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:30:23.530  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:30:23.549  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:30:24.143  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 13:30:24.323  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-02-27 13:30:24.327  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-02-27 13:30:24.572  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-02-27 13:30:24.610  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3031 ms
+2020-02-27 13:30:25.457  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-02-27 13:30:25.469  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-02-27 13:30:25.478  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-02-27 13:30:25.833  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-02-27 13:30:25.857  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-27 13:30:25.961  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-02-27 13:30:25.969  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-02-27 13:30:25.973  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-02-27 13:30:26.235  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-02-27 13:30:27.542  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-27 13:30:27.673  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-02-27 13:30:28.025  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-02-27 13:30:28.184  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-02-27 13:30:29.140  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68797e5e: startup date [Thu Feb 27 13:30:21 MST 2020]; root of context hierarchy
+2020-02-27 13:30:29.255  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.addCustomer(com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 13:30:29.271  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers]}" onto public java.lang.Iterable<com.promineotech.customerTrackerApi.entity.Customer> com.promineotech.customerTrackerApi.controller.CustomersController.getCustomers()
+2020-02-27 13:30:29.277  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public void com.promineotech.customerTrackerApi.controller.CustomersController.deleteCustomer(java.lang.Long)
+2020-02-27 13:30:29.285  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.getCustomer(java.lang.Long)
+2020-02-27 13:30:29.293  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.updateCustomer(java.lang.Long,com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 13:30:29.305  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-02-27 13:30:29.308  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-02-27 13:30:29.360  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:30:29.367  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:30:29.435  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:30:29.656  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-02-27 13:30:29.719  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 13:30:29.738  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 13:30:29.766  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-02-27 13:30:29.820  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-02-27 13:30:29.824  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Started App in 8.703 seconds (JVM running for 14.794)
+2020-02-27 13:32:14.207  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-02-27 13:32:14.208  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-02-27 13:32:14.236  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2020-02-27 13:32:14.287  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Info log
+2020-02-27 13:32:14.289  WARN WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Hey, this is a Warnging
+2020-02-27 13:32:14.319 ERROR WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Oops! We have an error!
+2020-02-27 13:32:14.320 FATAL WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Something really went wrong!
+2020-02-27 13:33:45.608  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-5] c.p.c.c.CustomersController              : Info log
+2020-02-27 13:33:45.610  WARN WINDOWS-TLP3L6J
+			---[nio-8080-exec-5] c.p.c.c.CustomersController              : Hey, this is a Warnging
+2020-02-27 13:33:45.615 ERROR WINDOWS-TLP3L6J
+			---[nio-8080-exec-5] c.p.c.c.CustomersController              : Oops! We have an error!
+2020-02-27 13:33:45.616 FATAL WINDOWS-TLP3L6J
+			---[nio-8080-exec-5] c.p.c.c.CustomersController              : Something really went wrong!
+2020-02-27 13:38:14.938  INFO WINDOWS-TLP3L6J
+			---[       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68797e5e: startup date [Thu Feb 27 13:30:21 MST 2020]; root of context hierarchy
+2020-02-27 13:38:36.004  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 20488 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-02-27 13:38:36.072  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6dc90644: startup date [Thu Feb 27 13:38:36 MST 2020]; root of context hierarchy
+2020-02-27 13:38:37.053  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-02-27 13:38:38.042  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-02-27 13:38:38.320  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$190845c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:38:38.381  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:38:38.404  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:38:38.423  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:38:39.190  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 13:38:39.400  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-02-27 13:38:39.407  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-02-27 13:38:39.586  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-02-27 13:38:39.591  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3522 ms
+2020-02-27 13:38:40.833  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-02-27 13:38:40.849  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-02-27 13:38:40.853  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-02-27 13:38:41.248  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-02-27 13:38:41.281  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-27 13:38:41.430  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-02-27 13:38:41.437  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-02-27 13:38:41.445  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-02-27 13:38:41.702  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-02-27 13:38:43.245  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-27 13:38:43.369  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-02-27 13:38:43.801  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-02-27 13:38:44.058  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-02-27 13:38:44.944  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6dc90644: startup date [Thu Feb 27 13:38:36 MST 2020]; root of context hierarchy
+2020-02-27 13:38:45.067  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.addCustomer(com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 13:38:45.075  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.getCustomer(java.lang.Long)
+2020-02-27 13:38:45.077  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.updateCustomer(java.lang.Long,com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 13:38:45.084  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public void com.promineotech.customerTrackerApi.controller.CustomersController.deleteCustomer(java.lang.Long)
+2020-02-27 13:38:45.085  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers]}" onto public java.lang.Iterable<com.promineotech.customerTrackerApi.entity.Customer> com.promineotech.customerTrackerApi.controller.CustomersController.getCustomers()
+2020-02-27 13:38:45.101  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-02-27 13:38:45.117  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-02-27 13:38:45.179  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:38:45.184  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:38:45.253  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:38:45.495  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-02-27 13:38:45.564  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 13:38:45.579  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 13:38:45.610  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-02-27 13:38:45.646  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-02-27 13:38:45.650  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Started App in 10.152 seconds (JVM running for 16.189)
+2020-02-27 13:39:03.467  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-02-27 13:39:03.469  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-02-27 13:39:03.515  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2020-02-27 13:39:03.554  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Info log
+2020-02-27 13:39:03.557  WARN WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Hey, this is a Warnging
+2020-02-27 13:39:03.562 ERROR WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Oops! We have an error!
+2020-02-27 13:39:03.563 FATAL WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Something really went wrong!
+2020-02-27 13:45:39.626  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-3] c.p.c.c.CustomersController              : Info log
+2020-02-27 13:45:39.628  WARN WINDOWS-TLP3L6J
+			---[nio-8080-exec-3] c.p.c.c.CustomersController              : Hey, this is a Warnging
+2020-02-27 13:45:39.637 ERROR WINDOWS-TLP3L6J
+			---[nio-8080-exec-3] c.p.c.c.CustomersController              : Oops! We have an error!
+2020-02-27 13:45:39.639 FATAL WINDOWS-TLP3L6J
+			---[nio-8080-exec-3] c.p.c.c.CustomersController              : Something really went wrong!
+2020-02-27 13:50:39.165  INFO WINDOWS-TLP3L6J
+			---[       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6dc90644: startup date [Thu Feb 27 13:38:36 MST 2020]; root of context hierarchy
+2020-02-27 13:50:49.540  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 26868 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-02-27 13:50:49.587  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68797e5e: startup date [Thu Feb 27 13:50:49 MST 2020]; root of context hierarchy
+2020-02-27 13:50:50.241  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-02-27 13:50:50.877  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-02-27 13:50:51.070  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bb8164d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:50:51.104  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:50:51.121  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:50:51.134  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:50:51.628  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 13:50:51.775  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-02-27 13:50:51.781  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-02-27 13:50:51.895  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-02-27 13:50:51.899  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2315 ms
+2020-02-27 13:50:52.538  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-02-27 13:50:52.547  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-02-27 13:50:52.548  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-02-27 13:50:52.784  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-02-27 13:50:52.806  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-27 13:50:52.899  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-02-27 13:50:52.906  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-02-27 13:50:52.910  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-02-27 13:50:53.099  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-02-27 13:50:54.169  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-27 13:50:54.273  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-02-27 13:50:54.928  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-02-27 13:50:55.070  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-02-27 13:50:55.812  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68797e5e: startup date [Thu Feb 27 13:50:49 MST 2020]; root of context hierarchy
+2020-02-27 13:50:55.906  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers]}" onto public java.lang.Iterable<com.promineotech.customerTrackerApi.entity.Customer> com.promineotech.customerTrackerApi.controller.CustomersController.getCustomers()
+2020-02-27 13:50:55.913  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.updateCustomer(java.lang.Long,com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 13:50:55.918  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public void com.promineotech.customerTrackerApi.controller.CustomersController.deleteCustomer(java.lang.Long)
+2020-02-27 13:50:55.924  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.getCustomer(java.lang.Long)
+2020-02-27 13:50:55.928  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.addCustomer(com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 13:50:55.934  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-02-27 13:50:55.940  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-02-27 13:50:55.976  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:50:55.982  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:50:56.035  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:50:56.210  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-02-27 13:50:56.254  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 13:50:56.264  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 13:50:56.282  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-02-27 13:50:56.300  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-02-27 13:50:56.303  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Started App in 7.07 seconds (JVM running for 11.778)
+2020-02-27 13:51:17.828  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-02-27 13:51:17.830  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-02-27 13:51:17.873  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2020-02-27 13:51:17.917  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Info log
+2020-02-27 13:51:17.927  WARN WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Hey, this is a Warning
+2020-02-27 13:51:17.928 ERROR WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Oops! We have an error!
+2020-02-27 13:51:17.930 FATAL WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Something really went wrong!
+2020-02-27 13:51:17.946 FATAL WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : An exception occurred.
+2020-02-27 13:52:31.762  INFO WINDOWS-TLP3L6J
+			---[       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68797e5e: startup date [Thu Feb 27 13:50:49 MST 2020]; root of context hierarchy
+2020-02-27 13:52:42.320  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 22428 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-02-27 13:52:42.391  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6dc90644: startup date [Thu Feb 27 13:52:42 MST 2020]; root of context hierarchy
+2020-02-27 13:52:43.164  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-02-27 13:52:44.075  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-02-27 13:52:44.409  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$190845c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:52:44.478  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:52:44.511  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:52:44.527  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 13:52:45.391  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 13:52:45.634  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-02-27 13:52:45.645  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-02-27 13:52:45.849  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-02-27 13:52:45.859  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3472 ms
+2020-02-27 13:52:46.983  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-02-27 13:52:46.990  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-02-27 13:52:46.992  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-02-27 13:52:47.503  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-02-27 13:52:47.541  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-27 13:52:47.699  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-02-27 13:52:47.705  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-02-27 13:52:47.709  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-02-27 13:52:48.050  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-02-27 13:52:50.002  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-27 13:52:50.134  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-02-27 13:52:50.450  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-02-27 13:52:50.664  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-02-27 13:52:51.612  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6dc90644: startup date [Thu Feb 27 13:52:42 MST 2020]; root of context hierarchy
+2020-02-27 13:52:51.716  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.addCustomer(com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 13:52:51.722  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.getCustomer(java.lang.Long)
+2020-02-27 13:52:51.723  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public void com.promineotech.customerTrackerApi.controller.CustomersController.deleteCustomer(java.lang.Long)
+2020-02-27 13:52:51.729  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers]}" onto public java.lang.Iterable<com.promineotech.customerTrackerApi.entity.Customer> com.promineotech.customerTrackerApi.controller.CustomersController.getCustomers()
+2020-02-27 13:52:51.733  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.updateCustomer(java.lang.Long,com.promineotech.customerTrackerApi.entity.Customer)
+2020-02-27 13:52:51.735  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-02-27 13:52:51.739  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-02-27 13:52:51.788  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:52:51.796  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:52:51.857  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-02-27 13:52:52.173  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-02-27 13:52:52.247  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 13:52:52.266  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 13:52:52.289  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-02-27 13:52:52.321  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-02-27 13:52:52.325  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Started App in 10.438 seconds (JVM running for 16.711)
+2020-02-27 13:52:56.232  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-02-27 13:52:56.234  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-02-27 13:52:56.281  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2020-02-27 13:52:56.327  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Info log
+2020-02-27 13:52:56.329  WARN WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Hey, this is a Warning
+2020-02-27 13:52:56.334 ERROR WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Oops! We have an error!
+2020-02-27 13:52:56.334 FATAL WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : Something really went wrong!
+2020-02-27 13:52:56.335 FATAL WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] c.p.c.c.CustomersController              : An exception occurred.This is an exception
+2020-03-06 13:26:36.430  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 2216 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-03-06 13:26:36.476  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@625481c7: startup date [Fri Mar 06 13:26:36 MST 2020]; root of context hierarchy
+2020-03-06 13:26:37.182  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-03-06 13:26:37.798  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-03-06 13:26:37.973  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f73a961d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 13:26:38.012  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 13:26:38.028  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 13:26:38.039  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 13:26:38.619  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-03-06 13:26:38.847  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-03-06 13:26:38.851  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-03-06 13:26:38.952  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-06 13:26:38.958  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2489 ms
+2020-03-06 13:26:39.696  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-06 13:26:39.704  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-06 13:26:39.705  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-06 13:26:39.926  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-06 13:26:39.944  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-06 13:26:40.070  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-03-06 13:26:40.075  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-03-06 13:26:40.081  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-03-06 13:26:40.273  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-03-06 13:26:41.616  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-06 13:26:41.754  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-06 13:26:42.110  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-03-06 13:26:42.229  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-03-06 13:26:42.780  WARN WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.promineotech.customerTrackerApi.repository.UserRepository com.promineotech.customerTrackerApi.service.UserService.repo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not an managed type: class com.promineotech.customerTrackerApi.entity.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.customerTrackerApi.App.main(App.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.promineotech.customerTrackerApi.repository.UserRepository com.promineotech.customerTrackerApi.service.UserService.repo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not an managed type: class com.promineotech.customerTrackerApi.entity.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:561)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 22 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not an managed type: class com.promineotech.customerTrackerApi.entity.User
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1120)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1044)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:942)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:533)
+	... 24 more
+Caused by: java.lang.IllegalArgumentException: Not an managed type: class com.promineotech.customerTrackerApi.entity.User
+	at org.hibernate.jpa.internal.metamodel.MetamodelImpl.managedType(MetamodelImpl.java:219)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:68)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getMetadata(JpaEntityInformationSupport.java:67)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:145)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:89)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:69)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:173)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:239)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:225)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:92)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 34 more
+2020-03-06 13:26:42.839  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-06 13:26:42.850  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Stopping service Tomcat
+2020-03-06 13:26:42.867  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/C:/Users/kmacd/eclipse-workspace/customerTrackerApi/src/main/resources/, file:/C:/Users/kmacd/eclipse-workspace/customerTrackerApi/src/main/resources/, file:/C:/Users/kmacd/eclipse-workspace/customerTrackerApi/target/classes/, file:/C:/Users/kmacd/.m2/repository/org/springframework/data/spring-data-jpa/1.7.3.RELEASE/spring-data-jpa-1.7.3.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/yaml/snakeyaml/1.14/snakeyaml-1.14.jar, file:/C:/Users/kmacd/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/logging/log4j/log4j-core/2.1/log4j-core-2.1.jar, file:/C:/Users/kmacd/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar, file:/C:/Users/kmacd/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar, file:/C:/Users/kmacd/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar, file:/C:/Users/kmacd/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/data/spring-data-commons/1.9.3.RELEASE/spring-data-commons-1.9.3.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.1/log4j-slf4j-impl-2.1.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.2.6.RELEASE/spring-boot-autoconfigure-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.0.26/tomcat-embed-core-8.0.26.jar, file:/C:/Users/kmacd/.m2/repository/org/aspectj/aspectjweaver/1.8.6/aspectjweaver-1.8.6.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.2.6.RELEASE/spring-boot-starter-web-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.6/jackson-annotations-2.4.6.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot/1.2.6.RELEASE/spring-boot-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/tomcat/tomcat-jdbc/7.0.21/tomcat-jdbc-7.0.21.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.0.26/tomcat-embed-el-8.0.26.jar, file:/C:/Users/kmacd/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.2.6.RELEASE/spring-boot-starter-aop-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.2.6.RELEASE/spring-boot-starter-jdbc-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-aspects/4.1.7.RELEASE/spring-aspects-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-orm/4.1.7.RELEASE/spring-orm-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.2.6.RELEASE/spring-boot-starter-data-jpa-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-log4j2/1.2.6.RELEASE/spring-boot-starter-log4j2-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.jar, file:/C:/Users/kmacd/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.6/jackson-databind-2.4.6.jar, file:/C:/Users/kmacd/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.26/tomcat-embed-websocket-8.0.26.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.26/tomcat-embed-logging-juli-8.0.26.jar, file:/C:/Users/kmacd/.m2/repository/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar, file:/C:/Users/kmacd/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.2.6.RELEASE/spring-boot-starter-tomcat-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/mysql/mysql-connector-java/8.0.12/mysql-connector-java-8.0.12.jar, file:/C:/Users/kmacd/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-tx/4.1.7.RELEASE/spring-tx-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/aspectj/aspectjrt/1.8.6/aspectjrt-1.8.6.jar, file:/C:/Users/kmacd/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.6/jackson-core-2.4.6.jar, file:/C:/Users/kmacd/.m2/repository/com/h2database/h2/1.4.188/h2-1.4.188.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter/1.2.6.RELEASE/spring-boot-starter-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar]
+2020-03-06 13:26:42.904  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report enable debug logging (start with --debug)
+
+
+2020-03-06 13:26:42.908 ERROR WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.SpringApplication                  : Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.promineotech.customerTrackerApi.repository.UserRepository com.promineotech.customerTrackerApi.service.UserService.repo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not an managed type: class com.promineotech.customerTrackerApi.entity.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.customerTrackerApi.App.main(App.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.promineotech.customerTrackerApi.repository.UserRepository com.promineotech.customerTrackerApi.service.UserService.repo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not an managed type: class com.promineotech.customerTrackerApi.entity.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:561)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 22 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not an managed type: class com.promineotech.customerTrackerApi.entity.User
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1120)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1044)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:942)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:533)
+	... 24 more
+Caused by: java.lang.IllegalArgumentException: Not an managed type: class com.promineotech.customerTrackerApi.entity.User
+	at org.hibernate.jpa.internal.metamodel.MetamodelImpl.managedType(MetamodelImpl.java:219)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:68)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getMetadata(JpaEntityInformationSupport.java:67)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:145)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:89)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:69)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:173)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:239)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:225)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:92)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 34 more
+2020-03-06 14:04:11.454  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 6092 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-03-06 14:04:11.507  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2476270d: startup date [Fri Mar 06 14:04:11 MST 2020]; root of context hierarchy
+2020-03-06 14:04:12.142  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-03-06 14:04:12.857  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-03-06 14:04:13.069  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f31cc5fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 14:04:13.117  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 14:04:13.141  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 14:04:13.167  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 14:04:13.692  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-03-06 14:04:13.843  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-03-06 14:04:13.851  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-03-06 14:04:13.965  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-06 14:04:13.968  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2465 ms
+2020-03-06 14:04:14.671  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-06 14:04:14.679  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-06 14:04:14.681  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-06 14:04:14.954  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-06 14:04:14.969  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-06 14:04:15.048  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-03-06 14:04:15.054  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-03-06 14:04:15.058  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-03-06 14:04:15.229  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-03-06 14:04:16.349  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-06 14:04:16.461  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-06 14:04:16.766  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-03-06 14:04:17.005  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-03-06 14:04:17.758  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2476270d: startup date [Fri Mar 06 14:04:11 MST 2020]; root of context hierarchy
+2020-03-06 14:04:17.866  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.addCustomer(com.promineotech.customerTrackerApi.entity.Customer)
+2020-03-06 14:04:17.874  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.getCustomer(java.lang.Long)
+2020-03-06 14:04:17.877  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers]}" onto public java.lang.Iterable<com.promineotech.customerTrackerApi.entity.Customer> com.promineotech.customerTrackerApi.controller.CustomersController.getCustomers()
+2020-03-06 14:04:17.882  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.updateCustomer(java.lang.Long,com.promineotech.customerTrackerApi.entity.Customer)
+2020-03-06 14:04:17.888  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public void com.promineotech.customerTrackerApi.controller.CustomersController.deleteCustomer(java.lang.Long)
+2020-03-06 14:04:17.890  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST]}" onto public com.promineotech.customerTrackerApi.entity.User com.promineotech.customerTrackerApi.controller.UsersController.addUser(com.promineotech.customerTrackerApi.entity.User)
+2020-03-06 14:04:17.896  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}]}" onto public com.promineotech.customerTrackerApi.entity.User com.promineotech.customerTrackerApi.controller.UsersController.getUser(java.lang.Long,com.promineotech.customerTrackerApi.entity.User)
+2020-03-06 14:04:17.901  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[DELETE]}" onto public void com.promineotech.customerTrackerApi.controller.UsersController.deleteUser(java.lang.Long)
+2020-03-06 14:04:17.903  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[PUT]}" onto public com.promineotech.customerTrackerApi.entity.User com.promineotech.customerTrackerApi.controller.UsersController.updateUser(java.lang.Long,com.promineotech.customerTrackerApi.entity.User)
+2020-03-06 14:04:17.905  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users]}" onto public java.lang.Iterable<com.promineotech.customerTrackerApi.entity.User> com.promineotech.customerTrackerApi.controller.UsersController.getUsers()
+2020-03-06 14:04:17.915  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-06 14:04:17.918  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-03-06 14:04:17.962  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-06 14:04:17.971  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-06 14:04:18.025  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-06 14:04:18.229  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-03-06 14:04:18.271  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-06 14:04:18.282  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-03-06 14:04:18.317  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-03-06 14:04:18.348  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-03-06 14:04:18.352  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Started App in 7.204 seconds (JVM running for 26.479)
+2020-03-06 14:04:40.278  INFO WINDOWS-TLP3L6J
+			---[       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2476270d: startup date [Fri Mar 06 14:04:11 MST 2020]; root of context hierarchy
+2020-03-06 15:20:35.475  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 18044 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-03-06 15:20:35.530  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e1b9a4e: startup date [Fri Mar 06 15:20:35 MST 2020]; root of context hierarchy
+2020-03-06 15:20:36.238  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-03-06 15:20:36.915  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-03-06 15:20:37.112  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0f3574f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 15:20:37.152  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 15:20:37.176  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 15:20:37.195  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 15:20:37.691  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-03-06 15:20:37.843  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-03-06 15:20:37.848  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-03-06 15:20:37.966  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-06 15:20:37.968  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2442 ms
+2020-03-06 15:20:38.696  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-06 15:20:38.704  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-06 15:20:38.705  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-06 15:20:38.990  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-06 15:20:39.007  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-06 15:20:39.088  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-03-06 15:20:39.092  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-03-06 15:20:39.098  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-03-06 15:20:39.260  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-03-06 15:20:40.493  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-06 15:20:40.576  WARN WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.customerTrackerApi.App.main(App.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:860)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 21 more
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.promineotech.customerTrackerApi.entity.Product
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:277)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:224)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:775)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3845)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3799)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1412)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1846)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	... 29 more
+2020-03-06 15:20:40.661  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Stopping service Tomcat
+2020-03-06 15:20:40.676  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/C:/Users/kmacd/eclipse-workspace/customerTrackerApi/src/main/resources/, file:/C:/Users/kmacd/eclipse-workspace/customerTrackerApi/src/main/resources/, file:/C:/Users/kmacd/eclipse-workspace/customerTrackerApi/target/classes/, file:/C:/Users/kmacd/.m2/repository/org/springframework/data/spring-data-jpa/1.7.3.RELEASE/spring-data-jpa-1.7.3.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/yaml/snakeyaml/1.14/snakeyaml-1.14.jar, file:/C:/Users/kmacd/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/logging/log4j/log4j-core/2.1/log4j-core-2.1.jar, file:/C:/Users/kmacd/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar, file:/C:/Users/kmacd/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar, file:/C:/Users/kmacd/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar, file:/C:/Users/kmacd/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/data/spring-data-commons/1.9.3.RELEASE/spring-data-commons-1.9.3.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.1/log4j-slf4j-impl-2.1.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/security/spring-security-crypto/5.1.2.RELEASE/spring-security-crypto-5.1.2.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.2.6.RELEASE/spring-boot-autoconfigure-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.0.26/tomcat-embed-core-8.0.26.jar, file:/C:/Users/kmacd/.m2/repository/org/aspectj/aspectjweaver/1.8.6/aspectjweaver-1.8.6.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.2.6.RELEASE/spring-boot-starter-web-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.6/jackson-annotations-2.4.6.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot/1.2.6.RELEASE/spring-boot-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/tomcat/tomcat-jdbc/7.0.21/tomcat-jdbc-7.0.21.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.0.26/tomcat-embed-el-8.0.26.jar, file:/C:/Users/kmacd/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.2.6.RELEASE/spring-boot-starter-aop-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.2.6.RELEASE/spring-boot-starter-jdbc-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-aspects/4.1.7.RELEASE/spring-aspects-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-orm/4.1.7.RELEASE/spring-orm-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.2.6.RELEASE/spring-boot-starter-data-jpa-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-log4j2/1.2.6.RELEASE/spring-boot-starter-log4j2-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.jar, file:/C:/Users/kmacd/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.6/jackson-databind-2.4.6.jar, file:/C:/Users/kmacd/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.26/tomcat-embed-websocket-8.0.26.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.26/tomcat-embed-logging-juli-8.0.26.jar, file:/C:/Users/kmacd/.m2/repository/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar, file:/C:/Users/kmacd/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.2.6.RELEASE/spring-boot-starter-tomcat-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/mysql/mysql-connector-java/8.0.12/mysql-connector-java-8.0.12.jar, file:/C:/Users/kmacd/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-tx/4.1.7.RELEASE/spring-tx-4.1.7.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/aspectj/aspectjrt/1.8.6/aspectjrt-1.8.6.jar, file:/C:/Users/kmacd/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.6/jackson-core-2.4.6.jar, file:/C:/Users/kmacd/.m2/repository/com/h2database/h2/1.4.188/h2-1.4.188.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/boot/spring-boot-starter/1.2.6.RELEASE/spring-boot-starter-1.2.6.RELEASE.jar, file:/C:/Users/kmacd/.m2/repository/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar]
+2020-03-06 15:20:40.726  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report enable debug logging (start with --debug)
+
+
+2020-03-06 15:20:40.733 ERROR WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.SpringApplication                  : Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.customerTrackerApi.App.main(App.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:860)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 21 more
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.promineotech.customerTrackerApi.entity.Product
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:277)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:224)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:775)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3845)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3799)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1412)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1846)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	... 29 more
+2020-03-06 15:21:39.122  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Starting App on WINDOWS-TLP3L6J with PID 3448 (C:\Users\kmacd\eclipse-workspace\customerTrackerApi\target\classes started by kmacd in C:\Users\kmacd\eclipse-workspace\customerTrackerApi)
+2020-03-06 15:21:39.166  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4576d176: startup date [Fri Mar 06 15:21:39 MST 2020]; root of context hierarchy
+2020-03-06 15:21:39.737  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-03-06 15:21:40.275  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-03-06 15:21:40.424  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$278b6a63] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 15:21:40.461  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 15:21:40.480  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 15:21:40.497  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-06 15:21:40.938  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-03-06 15:21:41.058  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-03-06 15:21:41.062  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-03-06 15:21:41.159  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-06 15:21:41.161  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1998 ms
+2020-03-06 15:21:41.710  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-06 15:21:41.717  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-06 15:21:41.718  INFO WINDOWS-TLP3L6J
+			---[ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-06 15:21:41.935  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-06 15:21:41.952  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-06 15:21:42.033  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-03-06 15:21:42.037  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-03-06 15:21:42.042  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-03-06 15:21:42.211  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-03-06 15:21:43.166  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-06 15:21:43.267  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-06 15:21:43.547  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-03-06 15:21:43.760  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-03-06 15:21:44.433  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4576d176: startup date [Fri Mar 06 15:21:39 MST 2020]; root of context hierarchy
+2020-03-06 15:21:44.509  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.addCustomer(com.promineotech.customerTrackerApi.entity.Customer)
+2020-03-06 15:21:44.516  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public void com.promineotech.customerTrackerApi.controller.CustomersController.deleteCustomer(java.lang.Long)
+2020-03-06 15:21:44.518  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers]}" onto public java.lang.Iterable<com.promineotech.customerTrackerApi.entity.Customer> com.promineotech.customerTrackerApi.controller.CustomersController.getCustomers()
+2020-03-06 15:21:44.520  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.updateCustomer(java.lang.Long,com.promineotech.customerTrackerApi.entity.Customer)
+2020-03-06 15:21:44.527  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}]}" onto public com.promineotech.customerTrackerApi.entity.Customer com.promineotech.customerTrackerApi.controller.CustomersController.getCustomer(java.lang.Long)
+2020-03-06 15:21:44.529  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/register],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.customerTrackerApi.controller.UsersController.register(com.promineotech.customerTrackerApi.entity.Credentials)
+2020-03-06 15:21:44.536  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.customerTrackerApi.controller.UsersController.login(com.promineotech.customerTrackerApi.entity.Credentials)
+2020-03-06 15:21:44.538  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-06 15:21:44.543  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-03-06 15:21:44.576  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-06 15:21:44.582  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-06 15:21:44.634  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-06 15:21:44.821  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-03-06 15:21:44.862  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-06 15:21:44.874  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-03-06 15:21:44.893  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-03-06 15:21:44.929  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-03-06 15:21:44.935  INFO WINDOWS-TLP3L6J
+			---[rApi.App.main()] c.p.c.App                                : Started App in 6.088 seconds (JVM running for 10.169)
+2020-03-06 15:23:53.898  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-06 15:23:53.904  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-06 15:23:53.946  INFO WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+2020-03-06 15:23:53.991  WARN WINDOWS-TLP3L6J
+			---[nio-8080-exec-1] o.s.w.s.PageNotFound                     : Request method 'GET' not supported
+2020-03-06 15:29:58.363  INFO WINDOWS-TLP3L6J
+			---[       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4576d176: startup date [Fri Mar 06 15:21:39 MST 2020]; root of context hierarchy
